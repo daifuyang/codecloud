@@ -1,0 +1,370 @@
+{
+  "common": {
+    "cta": "Start free",
+    "ctaSecondary": "Learn more",
+    "learnMore": "Learn more",
+    "contactSales": "Contact sales",
+    "bookDemo": "Book demo",
+    "getStarted": "Start free",
+    "copyright": "All rights reserved"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "System"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "English",
+    "switchTo": "Switch language"
+  },
+  "home": {
+    "hero": {
+      "kicker": "CodeCloaud · Yishan Suite",
+      "title": "Bring AI into",
+      "titleHighlight": "every workflow",
+      "subtitle": "Content, customers, commerce, cloud — one Yishan stack.",
+      "primaryCta": "Book demo",
+      "secondaryCta": "Explore products"
+    },
+    "metrics": {
+      "kicker": "By the numbers"
+    },
+    "products": {
+      "kicker": "Product suite",
+      "title": "10+ products across the value chain",
+      "subtitle": "Content, customers, commerce, and the platform beneath them.",
+      "viewAll": "View all"
+    },
+    "capabilities": {
+      "kicker": "Capability map",
+      "title": "Built around the real business journey",
+      "subtitle": "Content, customers, commerce, and the platform beneath — organized the way you actually work."
+    },
+    "testimonials": {
+      "kicker": "Customer voices",
+      "title": "How SMBs ship faster",
+      "subtitle": "Real customers. Real businesses. Real outcomes."
+    },
+    "cta": {
+      "title": "Start your next chapter with us",
+      "subtitle": "A 30-minute 1:1 to see how AI and business suites fit your workflow.",
+      "primaryCta": "Book demo"
+    }
+  },
+  "product": {
+    "genlabs": { "tag": "AI content" },
+    "media": { "tag": "New media ops" },
+    "crm": { "tag": "Customer ops" },
+    "mall": { "tag": "Commerce" }
+  },
+  "capability": {
+    "content": {
+      "title": "Content creation",
+      "desc": "Help creators and marketing teams ship publish-ready content faster.",
+      "bullets": [
+        "AI writing, voice and image",
+        "Multi-channel asset library",
+        "One-click publishing"
+      ]
+    },
+    "customer": {
+      "title": "Customer ops",
+      "desc": "Turn every lead and follow-up into a measurable asset.",
+      "bullets": [
+        "Lead, account and deal flow",
+        "Tickets, support and CSAT",
+        "Contracts, payments and follow-ups"
+      ]
+    },
+    "commerce": {
+      "title": "Commerce",
+      "desc": "Shorten the path between traffic and transactions.",
+      "bullets": [
+        "Catalog, orders, inventory, marketing",
+        "Mini-program and mobile end-to-end",
+        "Reusable commerce model"
+      ]
+    },
+    "foundry": {
+      "title": "Foundry",
+      "desc": "The engineering capability behind every product.",
+      "bullets": [
+        "ZeroCMF rapid framework",
+        "Cloud and SSL automation",
+        "Highly available engineering"
+      ]
+    }
+  },
+  "metric": {
+    "50": { "value": "50", "label": "SMBs served" },
+    "10": { "value": "10", "label": "Products in suite" },
+    "4": { "value": "4", "label": "Capability areas" },
+    "99": { "value": "99.9", "label": "Service uptime" }
+  },
+  "testimonial": {
+    "1": {
+      "quote": "With Yishan CRM, our 5-person sales team finally sees the status of every lead, and our collection cycle dropped by almost a third.",
+      "name": "Manager Chen",
+      "role": "B2B equipment company · Head of Sales"
+    },
+    "2": {
+      "quote": "The new media platform cut our WeChat, Zhihu and Xiaohongshu production from a week to two days.",
+      "name": "Editor Lin",
+      "role": "Content studio · Lead writer"
+    },
+    "3": {
+      "quote": "CodeCloaud products aren't flashy, but each one works. Our 12-person company runs CRM and storefront entirely on Yishan.",
+      "name": "Founder Zhou",
+      "role": "Retail brand · Founder"
+    }
+  },
+  "footer": {
+    "tagline": "CodeCloaud · AI and business suites for SMBs",
+    "products": "Products",
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact",
+    "icp": "Zhejiang ICP No. 2020040312"
+  },
+  "productDetail": {
+    "common": {
+      "breadcrumbHome": "Home",
+      "breadcrumbProducts": "Products",
+      "primaryCta": "Start free",
+      "secondaryCta": "Book demo",
+      "screenshotPlaceholder": "Product screenshot · coming soon",
+      "logosKicker": "Trusted by 50+ SMBs",
+      "fig": {
+        "01": "Product",
+        "02": "Capabilities",
+        "03": "Use cases",
+        "04": "UI",
+        "05": "FAQ",
+        "06": "Pairs well"
+      },
+      "sections": {
+        "featuresKicker": "Core features",
+        "scenariosKicker": "Use cases",
+        "screenshotKicker": "Screenshot",
+        "faqsKicker": "FAQ",
+        "relatedKicker": "Pairs well with",
+        "ctaKicker": "Next step",
+        "ctaTitle": "Get started with Yishan CRM",
+        "ctaSubtitle": "Start free, or book a 30-minute 1:1 with a product manager.",
+        "ctaPrimary": "Start free"
+      }
+    },
+    "crm": {
+      "tagline": "Turn every lead and follow-up into a measurable asset",
+      "description": "A customer management system for SMBs — covering leads, accounts, opportunities, contracts, payments and follow-ups.",
+      "features": {
+        "title": "Built around the full sales workflow",
+        "items": [
+          {
+            "title": "Lead pool",
+            "desc": "Unify inbound and outbound leads, auto dedupe and assign"
+          },
+          {
+            "title": "Account 360°",
+            "desc": "Contacts, deals, contracts and payments in one view"
+          },
+          { "title": "Pipeline funnel", "desc": "Stage, probability, expected close at a glance" },
+          {
+            "title": "Contracts & payments",
+            "desc": "Contracts, invoices and receipts auto-linked"
+          },
+          { "title": "Follow-up log", "desc": "Every touchpoint, every reply, traceable" },
+          {
+            "title": "Live dashboards",
+            "desc": "Performance, conversion and team rankings in real time"
+          }
+        ]
+      },
+      "scenarios": {
+        "title": "Teams using Yishan CRM",
+        "items": [
+          {
+            "title": "Leads without overlap",
+            "role": "B2B sales team",
+            "desc": "5–50 person teams share intake, auto-assign and collaborate."
+          },
+          {
+            "title": "Tie contracts to milestones",
+            "role": "Project-driven company",
+            "desc": "Contract milestones and payments bind to delivery."
+          },
+          {
+            "title": "Run sales by data",
+            "role": "SMB owner",
+            "desc": "See the whole sales picture, not gut feeling."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Before you start",
+        "items": [
+          { "q": "Mobile support?", "a": "Yes — native app and WeChat mini-program." },
+          {
+            "q": "How fast can we go live?",
+            "a": "Standard rollout in 1 week, including data import and training."
+          },
+          { "q": "WeChat Work integration?", "a": "Yes, contacts and group chats sync into CRM." },
+          { "q": "Is data private?", "a": "Private deployment or cloud with tenant isolation." },
+          { "q": "Pricing?", "a": "Per seat; cloud and on-prem plans available." }
+        ]
+      }
+    },
+    "genlabs": {
+      "tagline": "An AI content factory for creators",
+      "description": "An AI content platform for self-media creators — assets, voiceover, images, video and drafts, end to end.",
+      "features": {
+        "title": "Built around content production",
+        "items": [
+          { "title": "Asset library", "desc": "Images, audio, video unified with tagging" },
+          { "title": "AI voiceover", "desc": "One-click multi-voice, auto subtitles" },
+          { "title": "AI image", "desc": "Text-to-image, image-to-image, style control" },
+          { "title": "Script writing", "desc": "AI drafts scripts and shot lists" },
+          { "title": "Draft collaboration", "desc": "Multi-author editing with version history" },
+          { "title": "One-click export", "desc": "Push to Jianying, Premiere and more" }
+        ]
+      },
+      "scenarios": {
+        "title": "Creators using genlabs",
+        "items": [
+          {
+            "title": "Video and text in one place",
+            "role": "Solo creator",
+            "desc": "Script, voiceover and assets in one workflow."
+          },
+          {
+            "title": "Run a content matrix",
+            "role": "Studio",
+            "desc": "Shared library keeps brand voice consistent."
+          },
+          {
+            "title": "Centralize all assets",
+            "role": "Brand team",
+            "desc": "Replace scattered cloud drives with one source."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Before you start",
+        "items": [
+          { "q": "Voice options?", "a": "30+ voices across Chinese, English and dialects." },
+          {
+            "q": "Commercial use?",
+            "a": "Yes, all generated content is licensed for commercial use."
+          },
+          { "q": "Library size?", "a": "Plan-based, no throttling in cloud." },
+          { "q": "Jianying export?", "a": "Yes, one-click draft export to Jianying." },
+          { "q": "Time to start?", "a": "Same-day onboarding." }
+        ]
+      }
+    },
+    "media": {
+      "tagline": "Write once, publish everywhere",
+      "description": "For new media teams on WeChat, Zhihu and more — assets, formatting, multi-platform adaptation and one-click publishing.",
+      "features": {
+        "title": "Built around multi-platform ops",
+        "items": [
+          { "title": "Asset library", "desc": "Text, images, audio and video centralized" },
+          { "title": "Content composer", "desc": "Drag-and-drop WYSIWYG editor" },
+          {
+            "title": "Platform adaptation",
+            "desc": "Auto reformat for WeChat, Zhihu, Xiaohongshu"
+          },
+          { "title": "One-click publish", "desc": "One edit, push to every channel" },
+          { "title": "Analytics rollup", "desc": "Reads and engagement unified across platforms" },
+          { "title": "Editorial workflow", "desc": "Multi-role review and approval" }
+        ]
+      },
+      "scenarios": {
+        "title": "Teams using the platform",
+        "items": [
+          {
+            "title": "Centralize brand accounts",
+            "role": "In-house new media",
+            "desc": "Manage brand matrix accounts in one place."
+          },
+          {
+            "title": "Coordinate creators",
+            "role": "MCN studio",
+            "desc": "Shared library and rolled-up analytics."
+          },
+          {
+            "title": "Cross-channel consistency",
+            "role": "Brand owner",
+            "desc": "One piece of content, every channel, consistent tone."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Before you start",
+        "items": [
+          {
+            "q": "Supported platforms?",
+            "a": "WeChat, Zhihu, Xiaohongshu, Toutiao — more to come."
+          },
+          { "q": "Scheduled publishing?", "a": "Yes, per platform timezone." },
+          { "q": "Analytics frequency?", "a": "Real-time reads, engagement and conversion." },
+          { "q": "Custom templates?", "a": "Yes, custom templates and styles supported." },
+          { "q": "Pricing?", "a": "Per seat plus publish volume." }
+        ]
+      }
+    },
+    "mall": {
+      "tagline": "A full-featured storefront for SMBs",
+      "description": "For small and mid-sized merchants — products, orders, inventory, marketing and mini-program, end to end.",
+      "features": {
+        "title": "Built around commerce operations",
+        "items": [
+          { "title": "Product catalog", "desc": "SKUs, specs, categories, attributes" },
+          { "title": "Order flow", "desc": "Checkout, payment, fulfillment, refunds" },
+          { "title": "Inventory", "desc": "Multi-warehouse stock and low-stock alerts" },
+          { "title": "Marketing", "desc": "Coupons, bundles, flash sales" },
+          { "title": "Membership", "desc": "Tiers, points, stored value, perks" },
+          { "title": "Mini-program", "desc": "WeChat mini-program out of the box" }
+        ]
+      },
+      "scenarios": {
+        "title": "Merchants using Yishan Mall",
+        "items": [
+          {
+            "title": "Storefront + online shop",
+            "role": "Brick & mortar",
+            "desc": "Unify guide, inventory and membership online and offline."
+          },
+          {
+            "title": "Multi-channel flagship",
+            "role": "Brand commerce",
+            "desc": "One backend for Tmall, JD, Douyin and mini-program."
+          },
+          {
+            "title": "MOQ and tier pricing",
+            "role": "Wholesale",
+            "desc": "Minimum order quantities and tier pricing per customer."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Before you start",
+        "items": [
+          { "q": "Mini-program support?", "a": "Yes, WeChat mini-program out of the box." },
+          { "q": "Payments?", "a": "WeChat Pay, Alipay, UnionPay and more." },
+          { "q": "Logistics?", "a": "Major couriers and e-waybills integrated." },
+          { "q": "Custom development?", "a": "Yes, via API, plugins and themes." },
+          { "q": "Rollout time?", "a": "Standard rollout in 2 weeks." }
+        ]
+      }
+    }
+  }
+}
