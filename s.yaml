@@ -1,0 +1,76 @@
+edition: 3.0.0
+name: codecloud-site
+access: default
+
+vars:
+  region: cn-shanghai
+  functionName: codecloud-site
+
+resources:
+  codecloud-site:
+    component: fc3
+    props:
+      region: ${vars.region}
+      functionName: ${vars.functionName}
+      description: CodeCloud enterprise SSR website
+      runtime: custom.debian12
+      code: ./.fc-code
+      handler: not-used
+      timeout: 60
+      memorySize: 1024
+      cpu: 1
+      diskSize: 512
+      instanceConcurrency: 20
+      internetAccess: true
+      customRuntimeConfig:
+        command:
+          - node
+          - fc-server.mjs
+        port: 3000
+        healthCheckConfig: {}
+      triggers:
+        - triggerName: http-trigger
+          triggerType: http
+          qualifier: LATEST
+          triggerConfig:
+            authType: anonymous
+            methods:
+              - GET
+              - HEAD
+              - POST
+              - PUT
+              - PATCH
+              - DELETE
+              - OPTIONS
+      environmentVariables:
+        NODE_ENV: production
+        PORT: '3000'
+        PATH: /var/fc/lang/nodejs22/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/sbin:/bin
+
+  codecloud-root-domain:
+    component: fc3-domain
+    props:
+      region: ${vars.region}
+      domainName: codecloud.ltd
+      protocol: HTTPS
+      certConfig:
+        certId: 25808823
+      routeConfig:
+        routes:
+          - functionName: ${vars.functionName}
+            path: /*
+            qualifier: LATEST
+
+  codecloud-www-domain:
+    component: fc3-domain
+    props:
+      region: ${vars.region}
+      domainName: www.codecloud.ltd
+      protocol: HTTPS
+      certConfig:
+        certId: 25808823
+      routeConfig:
+        routes:
+          - functionName: ${vars.functionName}
+            path: /*
+            qualifier: LATEST
